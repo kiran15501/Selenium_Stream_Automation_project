@@ -1,0 +1,261 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "User navigates to Stream",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6826000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am on Stream page",
+            "match": {
+              "location": "com.quinbay.cucumberDemo.steps.Project_Step.IamonStreampage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-27T05:09:43.933Z",
+        "line": 68,
+        "name": "",
+        "description": "",
+        "id": "test-stream-website;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2581000000,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "search \"Adventure\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Adventure\"",
+                  "offset": 7
+                }
+              ],
+              "location": "com.quinbay.cucumberDemo.steps.Project_Step.search(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 194000000,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "click fliter ACTION and ADVENTURE",
+            "match": {
+              "location": "com.quinbay.cucumberDemo.steps.Project_Step.clickFliterACTIONAndADVENTURE()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85000000,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "check search and filter",
+            "match": {
+              "location": "com.quinbay.cucumberDemo.steps.Project_Step.checkSearchAndFilter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 604000000,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "slide to \"1250\"and click Special Offer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1250\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.quinbay.cucumberDemo.steps.Project_Step.slideToAndClickSpecialOffer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38000000,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "check slider and special offer",
+            "match": {
+              "location": "com.quinbay.cucumberDemo.steps.Project_Step.checkSliderAndSpecialOffer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2135000000,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "SortBy name",
+            "match": {
+              "location": "com.quinbay.cucumberDemo.steps.Project_Step.sortbyName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22000000,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "Check name",
+            "match": {
+              "location": "com.quinbay.cucumberDemo.steps.Project_Step.checkName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5590000000,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "TO game details page",
+            "match": {
+              "location": "com.quinbay.cucumberDemo.steps.Project_Step.toGameDetailsPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40000000,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "Add to cart",
+            "match": {
+              "location": "com.quinbay.cucumberDemo.steps.Project_Step.addToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2437000000,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "Click continue",
+            "match": {
+              "location": "com.quinbay.cucumberDemo.steps.Project_Step.clickContinue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35000000,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "Check cart",
+            "match": {
+              "location": "com.quinbay.cucumberDemo.steps.Project_Step.checkCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5852000000,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "Repate first five steps and check",
+            "match": {
+              "location": "com.quinbay.cucumberDemo.steps.Project_Step.repateFirstFiveStepsAndCheck()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5251000000,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "Navigate back and click another product",
+            "match": {
+              "location": "com.quinbay.cucumberDemo.steps.Project_Step.navigateBackAndClickAnotherProduct()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2251000000,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "Add to carttwo and verify total",
+            "match": {
+              "location": "com.quinbay.cucumberDemo.steps.Project_Step.addToCarttwoAndVerifyTotal()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 765000000,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "remove a product",
+            "match": {
+              "location": "com.quinbay.cucumberDemo.steps.Project_Step.removeAProduct()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19000000,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "verfy total",
+            "match": {
+              "location": "com.quinbay.cucumberDemo.steps.Project_Step.verfyTotal()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 78000000,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "close",
+            "match": {
+              "location": "com.quinbay.cucumberDemo.steps.Project_Step.close()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Test Stream website",
+    "description": "",
+    "id": "test-stream-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/quinbay/cucumberDemo/feature/Project_automation.feature",
+    "tags": []
+  }
+]
